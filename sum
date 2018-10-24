@@ -1,7 +1,9 @@
 #!/bin/bash
+#Author: Zihao Wu
+#good code
 sum=0
 for i in $@
 do
     sum=$((i + sum))
 done
-echo $sum "Wow! That's a big number"
+echo $sum
